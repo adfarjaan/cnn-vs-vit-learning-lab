@@ -46,9 +46,9 @@ classes = ['airplane', 'automobile', 'bird', 'cat', 'deer',
 
 print(f"Sample image: {classes[label]}")
 
-# ============================================================
+# ==========================================
 # CNN Visualization: Extract Feature Maps
-# ============================================================
+# ==================================
 print("\n" + "-"*30)
 print("Visualizing CNN Feature Maps...")
 print("-"*30)
@@ -101,9 +101,9 @@ plt.tight_layout()
 plt.savefig('results/phase4_cnn_features.png', dpi=150)
 plt.show()
 
-# ============================================================
+# =======================
 # ViT Visualization: Extract Attention Maps
-# ============================================================
+# ==================================
 print("\n" + "-"*30)
 print("Visualizing ViT Attention Maps...")
 print("-"*30)
@@ -134,7 +134,7 @@ plt.show()
 
 # ============================================================
 # Side-by-Side Comparison
-# ============================================================
+# ==========================
 print("\n" + "-"*30)
 print("Creating Side-by-Side Comparison...")
 print("-"*30)
@@ -179,9 +179,9 @@ plt.tight_layout()
 plt.savefig('results/phase4_comparison.png', dpi=150)
 plt.show()
 
-# ============================================================
+# ======================
 # Summary
-# ============================================================
+# =====================
 print("\n" + "="*50)
 print("PHASE 4 COMPLETE!")
 print("="*50)

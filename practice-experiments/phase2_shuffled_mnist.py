@@ -61,9 +61,9 @@ plt.tight_layout()
 plt.savefig('results/phase2_samples.png', dpi=150)
 plt.show()
 
-# ============================================================
+# =================================
 # EXPERIMENT 1: CNN on Normal MNIST
-# ============================================================
+# ========================================
 print("\n" + "-"*30)
 print("Experiment 1: CNN on Normal MNIST")
 print("-"*30)
@@ -73,9 +73,9 @@ cnn_normal_loss, cnn_normal_train, cnn_normal_test = train_model(
 )
 cnn_normal_final = cnn_normal_test[-1]
 
-# ============================================================
+# ====================================
 # EXPERIMENT 2: CNN on Shuffled MNIST
-# ============================================================
+# ======================================
 print("\n" + "-"*30)
 print("Experiment 2: CNN on Shuffled MNIST")
 print("-"*30)
@@ -85,9 +85,9 @@ cnn_shuffled_loss, cnn_shuffled_train, cnn_shuffled_test = train_model(
 )
 cnn_shuffled_final = cnn_shuffled_test[-1]
 
-# ============================================================
+# ================
 # EXPERIMENT 3: ViT on Normal MNIST
-# ============================================================
+# ====================================
 print("\n" + "-"*30)
 print("Experiment 3: ViT on Normal MNIST")
 print("-"*30)
