@@ -22,9 +22,8 @@ print("   - Phase 4: 5 minutes")
 print("\nPress Enter to continue or Ctrl+C to cancel...")
 input()
 
-# ============================================================
 # PHASE 1: Synthetic Lines
-# ============================================================
+
 print("\n" + "="*60)
 print("Starting Phase 1: Synthetic Lines")
 print("="*60)
@@ -43,9 +42,9 @@ try:
 except Exception as e:
     print(f" Phase 1 failed: {e}")
 
-# ============================================================
+
 # PHASE 2: Shuffled MNIST
-# ============================================================
+
 print("\n" + "="*60)
 print("Starting Phase 2: Shuffled MNIST")
 print("="*60)
@@ -63,9 +62,8 @@ try:
 except Exception as e:
     print(f" Phase 2 failed: {e}")
 
-# ============================================================
 # PHASE 3: CIFAR-10 Data Subsets
-# ============================================================
+
 print("\n" + "="*60)
 print("Starting Phase 3: CIFAR-10 Data Subsets")
 print("="*60)
@@ -83,9 +81,9 @@ try:
 except Exception as e:
     print(f" Phase 3 failed: {e}")
 
-# ============================================================
+
 # PHASE 4: Visualization
-# ============================================================
+
 print("\n" + "="*60)
 print("Starting Phase 4: Model Visualization")
 print("="*60)
@@ -96,16 +94,15 @@ print("-"*60)
 try:
     if os.path.exists('practice-experiments/phase4_visualization.py'):
         exec(open('practice-experiments/phase4_visualization.py').read())
-        print("✅ Phase 4 complete!")
+        print(" Phase 4 complete!")
     else:
         print(" File not found: practice-experiments/phase4_visualization.py")
         print("   Skipping Phase 4...")
 except Exception as e:
     print(f" Phase 4 failed: {e}")
 
-# ============================================================
 # SUMMARY
-# ============================================================
+
 print("\n" + "="*60)
 print(" ALL EXPERIMENTS COMPLETE!")
 print("="*60)
